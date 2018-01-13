@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/robot</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">Momoling123123</property>
+		
+		<!--acquireIncrement：链接用完了自动增量3个。 -->
+		<property name="acquireIncrement">3</property>
+		  <!--initialPoolSize：初始化时获取三个连接，取值应在minPoolSize与maxPoolSize之间。 --> 
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">10</property>
+	</default-config>
+</c3p0-config>

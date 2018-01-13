@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/chat/chat",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "HouseKeeper",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "list": [
+      {
+        "text": "select",
+        "iconPath": "images/index.jpg",
+        "selectedIconPath": "images/indexSelect.jpg",
+        "pagePath": "pages/chat/chat"
+      },
+      {
+        "text": "Me",
+        "iconPath": "images/meno.jpg",
+        "selectedIconPath": "images/meSelect.jpg",
+        "pagePath": "pages/index/index"
+      }
+    ]
+  }
+}
